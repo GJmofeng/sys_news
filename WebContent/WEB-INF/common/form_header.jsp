@@ -9,7 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
 <head>
 <meta charset="utf-8">
-<title>新闻网站后台</title>
+<title>YOLO新闻网后台系统</title>
 <link rel="stylesheet" type="text/css" href="layui/css/layui.css"> 
 <link rel="stylesheet" type="text/css" href="layui/css/admin.css"> 
 <link rel="stylesheet" type="text/css" href="layui/css/login.css"> 

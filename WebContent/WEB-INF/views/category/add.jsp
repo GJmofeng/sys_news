@@ -15,7 +15,7 @@
     <div class="layui-row layui-col-space15">
       <div class="layui-col-md12">
         <div class="layui-card">
-          <div class="layui-card-header">新增新闻类型</div>
+          <div class="layui-card-header">增加新闻类型</div>
           <div class="layui-card-body">
              <form action="CategoryServlet?action=addCategory" method="post" id="registerForm" name="registerForm"  class="layui-form" >
               <div class="layui-form-item">
