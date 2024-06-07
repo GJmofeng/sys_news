@@ -1621,7 +1621,7 @@ button:focus {
 
 .hero .slick-prev,
 .hero .slick-next {
-    background-color: rgba(239, 130, 8, 1);
+    background-color: rgba(0, 214, 144, 0.52);
     width: 55px;
     height: 55px;
     z-index: 10;
