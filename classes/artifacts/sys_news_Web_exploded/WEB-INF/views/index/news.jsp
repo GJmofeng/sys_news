@@ -244,7 +244,7 @@
                             </div>
                         
                             <div class="widget recent-post-widget">
-                                <h3>最近的新闻</h3>
+                                <h3>最近新闻</h3>
                                 	
                                 <div class="posts">
                                   <c:forEach items="${newsList}" var="u">
