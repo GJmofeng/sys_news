@@ -73,7 +73,7 @@
                         <button class="close-navbar"><i class="ti-close"></i></button>
                         <ul class="nav navbar-nav">
                             <li class="menu-item-has-children">
-                                <a href="IndexServlet?action=toIndex">首面</a>
+                                <a href="IndexServlet?action=toIndex">首页</a>
                               <!--   <ul class="sub-menu">
                                     <li><a href="IndexServlet?action=toIndex">首页</a></li>
                                 </ul> -->
@@ -108,7 +108,7 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                 <div class="slide-title">
-                                    <h2>欢迎来到YOLO新闻网站</h2>
+                                    <h2>Welcome to YOLO News Website!</h2>
                                 </div>
                                 <div class="slide-subtitle">
                                     <p>........</p>
@@ -126,7 +126,7 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                 <div class="slide-title">
-                                    <h2>欢迎来到YOLO新闻网站</h2>
+                                    <h2>Welcome to YOLO News Website!</h2>
                                 </div>
                                 <div class="slide-subtitle">
                                      <p>小天地</p>
@@ -141,7 +141,7 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                 <div class="slide-title">
-                                    <h2>欢迎来到YOLO新闻网站</h2>
+                                    <h2>Welcome to YOLO News Website!</h2>
                                 </div>
                                 <div class="slide-subtitle">
                                      <p>大舞台</p>
@@ -156,7 +156,7 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                  <div class="slide-title">
-                                    <h2>欢迎来到YOLO新闻网站</h2>
+                                    <h2> Welcome to YOLO News Website!</h2>
                                 </div>
                                 <div class="slide-subtitle">
                                      <p>每日时事</p>
