@@ -73,7 +73,7 @@
                         <button class="close-navbar"><i class="ti-close"></i></button>
                         <ul class="nav navbar-nav">
                             <li class="menu-item-has-children">
-                                <a href="IndexServlet?action=toIndex">主页面</a>
+                                <a href="IndexServlet?action=toIndex">首面</a>
                               <!--   <ul class="sub-menu">
                                     <li><a href="IndexServlet?action=toIndex">首页</a></li>
                                 </ul> -->

@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="wpoceans">
     <!-- Page Title -->
-    <title>主页面</title>
+    <title>首页</title>
     <!-- Icon fonts -->
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
@@ -73,14 +73,14 @@
                         <button class="close-navbar"><i class="ti-close"></i></button>
                         <ul class="nav navbar-nav">
                             <li class="menu-item-has-children">
-                                <a href="IndexServlet?action=toIndex">主页面</a>
+                                <a href="IndexServlet?action=toIndex">首面</a>
                               <!--   <ul class="sub-menu">
-                                    <li><a href="IndexServlet?action=toIndex">主页面</a></li>
+                                    <li><a href="IndexServlet?action=toIndex">首页</a></li>
                                 </ul> -->
                             </li>
                          
                             <li class="menu-item-has-children">
-                                 <a href="IndexServlet?action=toNews">新闻列表</a>
+                                 <a href="IndexServlet?action=toNews">每日热点</a>
                             </li>
                         </ul>
                     </div><!-- end of nav-collapse -->
@@ -108,10 +108,10 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                 <div class="slide-title">
-                                    <h2>欢迎来到新闻网站</h2>
+                                    <h2>欢迎来到YOLO新闻网站</h2>
                                 </div>
                                 <div class="slide-subtitle">
-                                    <p>了解更多新闻，尽在新闻发布网！</p>
+                                    <p>........</p>
                                 </div>
                                 <!-- <div class="btns">
                                     <a href="#" class="theme-btn">Book A Room</a>
@@ -126,10 +126,10 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                 <div class="slide-title">
-                                    <h2>欢迎来到新闻网站</h2>
+                                    <h2>欢迎来到YOLO新闻网站</h2>
                                 </div>
                                 <div class="slide-subtitle">
-                                     <p>了解更多新闻，尽在新闻发布网！</p>
+                                     <p>小天地</p>
                                 </div>
                             </div>
                         </div>
@@ -141,10 +141,10 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                 <div class="slide-title">
-                                    <h2>欢迎来到新闻网站</h2>
+                                    <h2>欢迎来到YOLO新闻网站</h2>
                                 </div>
                                 <div class="slide-subtitle">
-                                     <p>了解更多新闻，尽在新闻发布网！</p>
+                                     <p>大舞台</p>
                                 </div>
                             </div>
                         </div>
@@ -156,10 +156,10 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                  <div class="slide-title">
-                                    <h2>欢迎来到新闻网站</h2>
+                                    <h2>欢迎来到YOLO新闻网站</h2>
                                 </div>
                                 <div class="slide-subtitle">
-                                     <p>每日发布最新新闻！</p>
+                                     <p>每日时事</p>
                                 </div>
                             </div>
                         </div>
@@ -167,8 +167,6 @@
                 </div>
             </div>
         </section>
-        <!-- wpo-about-area end -->
-        <!-- destination Company -->
        
     </div>
     <!-- All JavaScript files
