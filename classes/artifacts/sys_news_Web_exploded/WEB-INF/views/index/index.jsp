@@ -88,10 +88,10 @@
                             <div class="get-quote">
                             <c:if test="${user != null }">
                              <a href="#">欢迎用户：${user.name }</a>
-                             <h1><a href="LoginServlet?action=loginOut">退出</a></h1>
+                             <h1><a href="LoginServlet?action=loginOut">Login Out</a></h1>
                         </c:if>
                          <c:if test="${user == null }">
-                             <h1><a href="LoginServlet?action=loginOut">去登陆</a></h1>
+                             <h1><a href="LoginServlet?action=loginOut">Sign In</a></h1>
                         </c:if>
                         </div></div>
                     </div><!-- end of container -->

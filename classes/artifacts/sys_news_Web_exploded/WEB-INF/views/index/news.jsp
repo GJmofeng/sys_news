@@ -81,9 +81,9 @@
                         <button class="close-navbar"><i class="ti-close"></i></button>
                         <ul class="nav navbar-nav">
                            <li class="menu-item-has-children">
-                                <a href="IndexServlet?action=toIndex">主页面</a>
+                                <a href="IndexServlet?action=toIndex">首页</a>
                               <!--   <ul class="sub-menu">
-                                    <li><a href="IndexServlet?action=toIndex">主页面</a></li>
+                                    <li><a href="IndexServlet?action=toIndex">首页</a></li>
                                 </ul> -->
                             </li>
                  
@@ -97,10 +97,10 @@
                             <c:if test="${user != null }">
                            
                              <a href="#">欢迎用户：${user.name }</a>
-                             <h1><a href="LoginServlet?action=loginOut">退出</a></h1>
+                             <h1><a href="LoginServlet?action=loginOut">Login out</a></h1>
                         </c:if>
                          <c:if test="${user == null }">
-                             <h1><a href="LoginServlet?action=loginOut">去登陆</a></h1>
+                             <h1><a href="LoginServlet?action=loginOut">Sign in</a></h1>
                         </c:if>
                         </div></div>
                     </div><!-- end of container -->
@@ -115,7 +115,7 @@
                     <div class="col col-xs-12">
                         <h2>新闻信息</h2>
                         <ol class="breadcrumb">
-                            <li><a href="IndexServlet?action=toIndex">主页面</a></li>
+                            <li><a href="IndexServlet?action=toIndex">首页</a></li>
                             <li>新闻</li>
                         </ol>
                     </div>
