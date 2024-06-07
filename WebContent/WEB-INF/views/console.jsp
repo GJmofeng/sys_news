@@ -18,7 +18,7 @@
 		<style id="pearadmin-bg-color"></style>
 		  <style>
            body {
-            background:url("assets/images/news.jpeg") no-repeat;
+            background:url("/assets/images/news.jpeg") no-repeat;
             /*把背景图片放大到适合元素容器的尺寸，图片比例不变*/
             background-size:cover;
         }
