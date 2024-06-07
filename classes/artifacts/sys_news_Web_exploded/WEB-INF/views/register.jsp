@@ -12,7 +12,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-	<title>旅游系统</title>
+	<title>浏览系统</title>
     <link href="resource/css/bootstrap.min.css" rel="stylesheet">
     <link href="resource/css/a3common.css" rel="stylesheet">
     <link rel="stylesheet" href="resource/css/login.css">

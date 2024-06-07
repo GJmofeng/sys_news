@@ -25,7 +25,7 @@
     </style>
 	</head>
 	<body class="pear-container" >
-	<a style="font-Size:50px">欢迎来到新闻管理系统</a>
+	<a style="font-Size:50px">欢迎来到YOLO新闻发布系统</a>
 		<script src="resource/component/layui/layui.js"></script>
 		<script src="resource/component/pear/pear.js"></script>
 		<script>
