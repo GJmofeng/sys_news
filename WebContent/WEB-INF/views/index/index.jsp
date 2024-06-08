@@ -67,7 +67,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="IndexServlet?action=toIndex">新闻网站</a>
+                            <a class="navbar-brand" href="IndexServlet?action=toIndex">YOLO News Website</a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse navigation-holder">
                         <button class="close-navbar"><i class="ti-close"></i></button>

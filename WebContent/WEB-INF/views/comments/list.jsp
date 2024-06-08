@@ -29,8 +29,6 @@
 				<table class="layui-table">
 					<thead>
 						<tr>
-						 
-						    
 						    <th>评论人</th>
 						    <th>内容</th>
 						    <th>评论时间</th>

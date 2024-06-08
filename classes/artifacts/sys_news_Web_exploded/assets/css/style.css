@@ -1052,7 +1052,7 @@ button:focus {
     width: 100%;
   }
   .site-header .navbar-header button {
-    background-color: #00d690;
+    background-color: #ec782b;
     width: 40px;
     height: 35px;
     border: 0;
@@ -1621,7 +1621,7 @@ button:focus {
 
 .hero .slick-prev,
 .hero .slick-next {
-    background-color: rgba(0, 214, 144, 0.52);
+    background-color: rgba(237, 121, 6, 0.52);
     width: 55px;
     height: 55px;
     z-index: 10;
