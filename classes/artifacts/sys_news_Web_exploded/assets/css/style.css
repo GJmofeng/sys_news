@@ -107,7 +107,7 @@ h4,
 h5,
 h6 {
   font-family: 'Quicksand', sans-serif;
-  color: #283a5e;
+  color: #da4e0e;
   font-weight: 600;
 }
 
@@ -5485,7 +5485,7 @@ wpo-blog sidebar
     text-transform: capitalize;
     padding-bottom: 20px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid #07d6e3;
 }
 .wpo-blog-sidebar .widget h3:before {
     content: "";
@@ -5494,7 +5494,7 @@ wpo-blog sidebar
     bottom: -2px;
     width: 60px;
     height: 4px;
-    background: #00d690;
+    background: #09deee;
 }
 
 .wpo-blog-sidebar>.widget+.widget {
@@ -5531,7 +5531,7 @@ wpo-blog sidebar
 }
 
 .wpo-blog-sidebar .search-widget form button {
-    background: #00d690;
+    background: #090909f7;
     font-size: 20px;
     font-size: 1.25rem;
     color: #fff;
@@ -5559,7 +5559,7 @@ wpo-blog sidebar
 
 .wpo-blog-sidebar .category-widget ul li:before {
     content: "";
-    background: #bbb;
+    background: #e06e03;
     width: 8px;
     height: 8px;
     position: absolute;
@@ -5586,7 +5586,7 @@ wpo-blog sidebar
 
 .wpo-blog-sidebar .category-widget ul a {
     display: block;
-    color: #777;
+    color: #000;
 }
 
 .wpo-blog-sidebar .category-widget ul a:hover {
@@ -5643,7 +5643,7 @@ wpo-blog sidebar
 }
 
 .wpo-blog-sidebar .recent-post-widget .post h4 a:hover {
-    color: #00d690;
+    color: #f25f06;
 }
 
 .wpo-blog-sidebar .recent-post-widget .post .details .date {
