@@ -610,7 +610,7 @@ html {
 }
 
 .layui-layout-admin .layui-logo {
-	background-color: #20222A;
+	background-color: #0da496;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .15)
 }
 
@@ -630,7 +630,7 @@ html {
 }
 
 .layadmin-setTheme-side, .layui-side-menu {
-	background-color: #20222A;
+	background-color: #046976;
 	color: #fff
 }
 
