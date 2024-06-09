@@ -80,7 +80,7 @@
                             </li>
                          
                             <li class="menu-item-has-children">
-                                 <a href="IndexServlet?action=toNews">每日热点</a>
+                                 <a href="IndexServlet?action=toNews">时事热点</a>
                             </li>
                         </ul>
                     </div><!-- end of nav-collapse -->
@@ -159,7 +159,7 @@
                                     <h2> Welcome to YOLO News Website!</h2>
                                 </div>
                                 <div class="slide-subtitle">
-                                     <p>每日时事</p>
+                                     <p>时事热点</p>
                                 </div>
                             </div>
                         </div>
