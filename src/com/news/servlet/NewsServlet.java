@@ -40,8 +40,8 @@ public class NewsServlet extends BaseServlet{
 		String p=request.getParameter("p");//接收页码
 		String names=request.getParameter("names");//接收页码
         System.out.println(p);
-        int pageSize=8;//每页显示5�?
-        int pageNum=1; //默认第一�?
+        int pageSize=8;//每页显示5页?
+        int pageNum=1; //默认第一页?
         if(p!=null){
             pageNum= Integer.parseInt(p);
         }

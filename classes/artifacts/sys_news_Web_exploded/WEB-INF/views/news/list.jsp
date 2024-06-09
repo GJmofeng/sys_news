@@ -12,7 +12,7 @@
 
 	<div class="layui-col-md12">
 		<div class="layui-card">
-			<div class="layui-card-header">新闻信息列表</div>
+			<div class="layui-card-header">新闻列表</div>
 			<div class="layui-card-body">
 			     <form action="NewsServlet?action=NewsList" method="post">
 						    
