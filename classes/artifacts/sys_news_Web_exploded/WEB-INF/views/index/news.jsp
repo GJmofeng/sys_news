@@ -88,7 +88,7 @@
                             </li>
                  
                             <li class="menu-item-has-children">
-                                <a href="IndexServlet?action=toNews">新闻</a>
+                                <a href="IndexServlet?action=toNews">时事热点</a>
                             </li>
                         </ul>
                     </div><!-- end of nav-collapse -->
@@ -113,10 +113,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col col-xs-12">
-                        <h2>新闻信息</h2>
+                        <h2>时事热点</h2>
                         <ol class="breadcrumb">
                             <li><a href="IndexServlet?action=toIndex">首页</a></li>
-                            <li>新闻</li>
+                            <li>时事热点</li>
                         </ol>
                     </div>
                 </div> <!-- end row -->
