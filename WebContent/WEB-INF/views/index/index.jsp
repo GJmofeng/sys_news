@@ -72,16 +72,35 @@
                         <div id="navbar" class="navbar-collapse collapse navigation-holder">
                         <button class="close-navbar"><i class="ti-close"></i></button>
                         <ul class="nav navbar-nav">
+                            <%--首页专区--%>
                             <li class="menu-item-has-children">
                                 <a href="IndexServlet?action=toIndex">首页</a>
-                              <!--   <ul class="sub-menu">
-                                    <li><a href="IndexServlet?action=toIndex">首页</a></li>
-                                </ul> -->
                             </li>
-                         
+                            <%--时事热点专区--%>
                             <li class="menu-item-has-children">
                                  <a href="IndexServlet?action=toNews">时事热点</a>
                             </li>
+                            <%--乡村振兴专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">乡村振兴</a>
+                            </li>
+                            <%--一带一路专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">一带一路</a>
+                            </li>
+                            <%--直播中国专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">直播中国</a>
+                            </li>
+                            <%--世界视角专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">世界视角</a>
+                            </li>
+                            <%--人与自然专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">人与自然</a>
+                            </li>
+
                         </ul>
                     </div><!-- end of nav-collapse -->
                         <div class="cart-search-contact">

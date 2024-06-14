@@ -504,7 +504,8 @@ html {
 
 .layadmin-pagetabs .layui-tab-title {
 	height: 40px;
-	border: none
+	border: none;
+	background-color: #e97400;
 }
 
 .layadmin-pagetabs .layui-tab-title li {
@@ -583,7 +584,7 @@ html {
 .layui-layout-admin .layui-header {
 	border-bottom: 1px solid #02cbb8;
 	box-sizing: border-box;
-	background-color: #fff
+	background-color: #059d8f
 }
 
 .layui-layout-admin .layui-header a, .layui-layout-admin .layui-header a cite

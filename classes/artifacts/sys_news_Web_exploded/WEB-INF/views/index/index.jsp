@@ -82,6 +82,23 @@
                             <li class="menu-item-has-children">
                                  <a href="IndexServlet?action=toNews">时事热点</a>
                             </li>
+                            <%--乡村振兴专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">乡村振兴</a>
+                            </li>
+                            <%--一带一路专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">一带一路</a>
+                            </li>
+                            <%--直播中国专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">直播中国</a>
+                            </li>
+                            <%--世界视角专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">世界视角</a>
+                            </li>
+
                         </ul>
                     </div><!-- end of nav-collapse -->
                         <div class="cart-search-contact">
