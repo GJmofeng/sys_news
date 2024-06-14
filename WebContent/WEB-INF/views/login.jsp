@@ -99,8 +99,8 @@
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 </style>
 <div class="copyrights" id="links20210126">
-	Collect from <a href="http://www.cssmoban.com/"  title="网站模板">模板之家</a>
-	<a href="https://www.chazidian.com/"  title="查字典">查字典</a>
+	Collect from <a href="http://www.cssmoban.com/"  title="网站模板">精品模板</a>
+	<a href="https://www.chazidian.com/"  title="查字典">查看字典</a>
 </div>
 
 <script src="resource/component/layui/layui.js"></script>
