@@ -72,13 +72,11 @@
                         <div id="navbar" class="navbar-collapse collapse navigation-holder">
                         <button class="close-navbar"><i class="ti-close"></i></button>
                         <ul class="nav navbar-nav">
+                            <%--首页专区--%>
                             <li class="menu-item-has-children">
                                 <a href="IndexServlet?action=toIndex">首页</a>
-                              <!--   <ul class="sub-menu">
-                                    <li><a href="IndexServlet?action=toIndex">首页</a></li>
-                                </ul> -->
                             </li>
-                         
+                            <%--时事热点专区--%>
                             <li class="menu-item-has-children">
                                  <a href="IndexServlet?action=toNews">时事热点</a>
                             </li>
@@ -97,6 +95,10 @@
                             <%--世界视角专区--%>
                             <li class="menu-item-has-children">
                                 <a href="IndexServlet?action=toNews">世界视角</a>
+                            </li>
+                            <%--人与自然专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">人与自然</a>
                             </li>
 
                         </ul>
