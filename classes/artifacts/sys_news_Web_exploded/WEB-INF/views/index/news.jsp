@@ -234,7 +234,7 @@
                                 </form>
                             </div>
                      <div class="widget category-widget">
-                                <h3>分类</h3>
+                                <h3>新闻分类</h3>
                                 <ul>
                                   <c:forEach items="${categoryList}" var="u">
                                      <li><a href="IndexServlet?action=toNews&category=${u.cname }">${u.cname }</a></li>
@@ -244,7 +244,7 @@
                             </div>
                         
                             <div class="widget recent-post-widget">
-                                <h3>新闻热点</h3>
+                                <h3>今日热播</h3>
                                 	
                                 <div class="posts">
                                   <c:forEach items="${newsList}" var="u">
@@ -257,6 +257,20 @@
                                             <span class="date">${u.times }</span>
                                         </div>
                                     </div>
+                                    </c:forEach>
+                                </div>
+
+                                <div class="posts">
+                                    <c:forEach items="${newsList}" var="u">
+                                        <div class="post">
+                                            <div class="img-holder">
+                                                <img src="/images/${u.img }" alt>
+                                            </div>
+                                            <div class="details">
+                                                <h4><a href="IndexServlet?action=toNews&nid=${u.id }">${u.title }</a></h4>
+                                                <span class="date">${u.times }</span>
+                                            </div>
+                                        </div>
                                     </c:forEach>
                                 </div>
                             </div>
