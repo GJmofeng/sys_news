@@ -442,7 +442,7 @@ html {
 	transition: all .3s;
 	-webkit-transition: all .3s;
 	box-sizing: border-box;
-	border-left: 1px solid #f6f6f6
+	border-left: 1px solid #05bbb6
 }
 
 .layadmin-pagetabs .layadmin-tabs-control:hover {
