@@ -53,7 +53,34 @@
                             <span class="input-icon iconfont icon-yonghu1"></span>
                             <input class="inputs" type="text" name="email" placeholder="邮箱" id="email" maxlength="20">
                         </div>
-                        
+
+                        <div class="input-warp gap">
+                            <span class="input-icon iconfont icon-yonghu1"></span>
+                            <input class="inputs" type="text" name="phone" placeholder="手机号" id="phone" maxlength="20">
+                        </div>
+
+                        <div class="input-warp gap">
+                            <span class="input-icon iconfont icon-yonghu1"></span>
+                            <input class="inputs" type="text" name="address" placeholder="地址" id="address" maxlength="20">
+                        </div>
+
+                        <div class="input-warp gap">
+                            <span class="input-icon iconfont icon-yonghu1"></span>
+                            <input class="inputs" type="text" name="birthday" placeholder="生日" id="birthday" maxlength="20">
+                        </div>
+
+                        <div class="input-warp gap">
+                            <span class="input-icon iconfont icon-yonghu1"></span>
+                            <input class="inputs" type="text" name="sex" placeholder="性别" id="sex" maxlength="20">
+                        </div>
+
+                        <div class="input-warp gap">
+                            <span class="input-icon iconfont icon-yonghu1"></span>
+                            <input class="inputs" type="text" name="hobby" placeholder="爱好" id="hobby" maxlength="20">
+                        </div>
+
+
+
                         
                        
                                 <input type="file" name="imgUrl" id="imgUrl" class="layui-input"  /> 
