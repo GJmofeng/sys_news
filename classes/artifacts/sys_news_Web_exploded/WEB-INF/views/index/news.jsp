@@ -123,8 +123,15 @@
             </div> <!-- end container -->
         </section>
         <!-- end page-title -->
-        
 
+        <div class="containers">
+            <div class="item"><img src="assets/images/blog/img-11.jpg" alt=""></div>
+            <div class="item"><img src="assets/images/blog/img-22.jpg" alt=""></div>
+            <div class="item"><img src="assets/images/blog/img-33.jpg" alt=""></div>
+            <div class="item"><img src="assets/images/blog/img-44.jpg" alt=""></div>
+            <div class="item"><img src="assets/images/blog/img-55.jpg" alt=""></div>
+            <div class="item"><img src="assets/images/blog/img-66.jpg" alt=""></div>
+        </div>
         <!-- start wpo-blog-single-section -->
         
      

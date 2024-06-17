@@ -99,6 +99,79 @@ p {
   color: #687693;
   line-height: 30px;
 }
+@font-face {
+    font-family: aaa;
+    src: url("index.ttf");
+}
+
+.containers {
+    width: 350px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: action 30s linear infinite;
+   /* animation-play-state: paused;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.containers .item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-box-reflect: below 15px linear-gradient(transparent 20%, rgba(0, 0, 0, 0.3))
+}
+
+.containers .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containers .item:nth-child(1) {
+    transform: translateZ(500px);
+}
+
+.containers .item:nth-child(2) {
+    transform: rotateY(60deg) translateZ(500px);
+}
+
+.containers .item:nth-child(3) {
+    transform: rotateY(120deg) translateZ(500px);
+}
+
+.containers .item:nth-child(4) {
+    transform: rotateY(180deg) translateZ(500px);
+}
+
+.containers .item:nth-child(5) {
+    transform: rotateY(240deg) translateZ(500px);
+}
+
+.containers .item:nth-child(6) {
+    transform: rotateY(300deg) translateZ(500px);
+}
+
+@keyframes action {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.containers:hover {
+    animation-play-state: running;
+}
+
+.containers:hover .item {
+    box-shadow: 0 0 15px 10px white;
+
+}
 
 h1,
 h2,
