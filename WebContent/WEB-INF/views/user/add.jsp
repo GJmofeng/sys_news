@@ -47,13 +47,7 @@
 				<input name="email" id="email" class="layui-input" /> 
                 </div>
               </div>
-              
-         <!--      <div class="layui-form-item">
-                <label class="layui-form-label">金额:</label>
-                <div class="layui-input-inline">
-				<input name="sums" id="sums" class="layui-input" /> 
-                </div>
-              </div> -->
+
               
                <div class="layui-form-item">
                 <label class="layui-form-label">上传头像:</label>

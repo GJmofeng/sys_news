@@ -74,7 +74,7 @@ public class NewsServlet extends BaseServlet{
 //        }
 //    }
     
-    //去新增学生页
+    //去新增页
     protected void toAddNews(HttpServletRequest request, HttpServletResponse response) throws Exception {//条件查询
     	List<Category> categoryList = cs.selectList();
     	  request.setAttribute("categoryList" ,categoryList);
@@ -83,7 +83,7 @@ public class NewsServlet extends BaseServlet{
     
     
     
-    //新增学生
+    //新增
     protected void addNews(HttpServletRequest request, HttpServletResponse response) throws Exception {//条件查询
         Editors editors = (Editors)request.getSession().getAttribute("editors");
     	News ss = fileUpload(request);
@@ -144,7 +144,7 @@ public class NewsServlet extends BaseServlet{
 //        request.getRequestDispatcher("/WEB-INF/views/news/update.jsp").forward(request,response); //页面转发
 
     }
-    //修改学生信息
+    //修改信息
     protected void updateNews(HttpServletRequest request, HttpServletResponse response) throws Exception {//条件查询
 //    	 Object type =request.getSession().getAttribute("flag");
 //    	 String stno=request.getParameter("stno");
@@ -170,7 +170,7 @@ public class NewsServlet extends BaseServlet{
 //	     }
     }
     
-    //删除学生
+    //删除
     protected void deleteNews(HttpServletRequest request, HttpServletResponse response) throws Exception {//条件查询
    	     String id=request.getParameter("id");
 	     service.deleteNews(id);

@@ -54,20 +54,6 @@ public class UserServlet extends BaseServlet{
 	}
 	
 
-	
-//	//模糊查询
-//    protected void selectUserLike(HttpServletRequest request, HttpServletResponse response) throws Exception {//条件查询
-//        String name=request.getParameter("name");
-//        List<User> list=service.selectUserLike(name);
-//        if(null == list || list.size() ==0 ){
-//            request.setAttribute("msg" ,"无此信息");
-//            request.getRequestDispatcher("/WEB-INF/views/user/User_list.jsp").forward(request,response); //页面转发
-//        }else {
-//            request.removeAttribute("msg");
-//            request.setAttribute("list" ,list);
-//            request.getRequestDispatcher("/WEB-INF/views/user/User_list.jsp").forward(request,response); //页面转发
-//        }
-//    }
     
     //去新增学生页
     protected void toAddUser(HttpServletRequest request, HttpServletResponse response) throws Exception {//条件查询
@@ -125,7 +111,6 @@ public class UserServlet extends BaseServlet{
 			}else{
 				String filename = item.getName();
 				String savefilename = makeFileName(filename);
-				//String savepath="D:\\WorkspaceForZGN\\book_system\\WebContent\\img\\";
 				String savepath="D:\\upload\\";
 				InputStream in = item.getInputStream();
 				FileOutputStream out = new FileOutputStream(savepath + "\\" + savefilename);
