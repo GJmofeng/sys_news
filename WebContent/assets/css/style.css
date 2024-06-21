@@ -99,6 +99,79 @@ p {
   color: #687693;
   line-height: 30px;
 }
+@font-face {
+    font-family: aaa;
+    src: url("index.ttf");
+}
+
+.containers {
+    width: 350px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: action 30s linear infinite;
+   /* animation-play-state: paused;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.containers .item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-box-reflect: below 15px linear-gradient(transparent 20%, rgba(0, 0, 0, 0.3))
+}
+
+.containers .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containers .item:nth-child(1) {
+    transform: translateZ(500px);
+}
+
+.containers .item:nth-child(2) {
+    transform: rotateY(60deg) translateZ(500px);
+}
+
+.containers .item:nth-child(3) {
+    transform: rotateY(120deg) translateZ(500px);
+}
+
+.containers .item:nth-child(4) {
+    transform: rotateY(180deg) translateZ(500px);
+}
+
+.containers .item:nth-child(5) {
+    transform: rotateY(240deg) translateZ(500px);
+}
+
+.containers .item:nth-child(6) {
+    transform: rotateY(300deg) translateZ(500px);
+}
+
+@keyframes action {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.containers:hover {
+    animation-play-state: running;
+}
+
+.containers:hover .item {
+    box-shadow: 0 0 15px 10px white;
+
+}
 
 h1,
 h2,
@@ -107,7 +180,7 @@ h4,
 h5,
 h6 {
   font-family: 'Quicksand', sans-serif;
-  color: #283a5e;
+  color: #da4e0e;
   font-weight: 600;
 }
 
@@ -146,7 +219,7 @@ button:focus {
 /*** back to top **/
 .back-to-top {
   background-color: rgba(0,214,144,.7);
-  border: 2px solid #00d690;
+  border: 2px solid #e97d05;
   width: 45px;
   height: 45px;
   line-height: 45px;
@@ -1052,7 +1125,7 @@ button:focus {
     width: 100%;
   }
   .site-header .navbar-header button {
-    background-color: #00d690;
+    background-color: #ec782b;
     width: 40px;
     height: 35px;
     border: 0;
@@ -1621,7 +1694,7 @@ button:focus {
 
 .hero .slick-prev,
 .hero .slick-next {
-    background-color: rgba(0, 214, 144, 0.52);
+    background-color: rgba(237, 121, 6, 0.52);
     width: 55px;
     height: 55px;
     z-index: 10;
@@ -5485,7 +5558,7 @@ wpo-blog sidebar
     text-transform: capitalize;
     padding-bottom: 20px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid #07d6e3;
 }
 .wpo-blog-sidebar .widget h3:before {
     content: "";
@@ -5494,7 +5567,7 @@ wpo-blog sidebar
     bottom: -2px;
     width: 60px;
     height: 4px;
-    background: #00d690;
+    background: #09deee;
 }
 
 .wpo-blog-sidebar>.widget+.widget {
@@ -5514,7 +5587,7 @@ wpo-blog sidebar
     height: 50px;
     font-size: 16px;
     font-size: 1rem;
-    border: 1px solid #ebebeb;
+    border: 1px solid #0622f1;
     padding: 6px 50px 6px 20px;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -5531,7 +5604,7 @@ wpo-blog sidebar
 }
 
 .wpo-blog-sidebar .search-widget form button {
-    background: #00d690;
+    background: #090909f7;
     font-size: 20px;
     font-size: 1.25rem;
     color: #fff;
@@ -5559,7 +5632,7 @@ wpo-blog sidebar
 
 .wpo-blog-sidebar .category-widget ul li:before {
     content: "";
-    background: #bbb;
+    background: #e06e03;
     width: 8px;
     height: 8px;
     position: absolute;
@@ -5586,7 +5659,7 @@ wpo-blog sidebar
 
 .wpo-blog-sidebar .category-widget ul a {
     display: block;
-    color: #777;
+    color: #000;
 }
 
 .wpo-blog-sidebar .category-widget ul a:hover {
@@ -5643,7 +5716,7 @@ wpo-blog sidebar
 }
 
 .wpo-blog-sidebar .recent-post-widget .post h4 a:hover {
-    color: #00d690;
+    color: #f25f06;
 }
 
 .wpo-blog-sidebar .recent-post-widget .post .details .date {

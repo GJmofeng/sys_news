@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="wpoceans">
     <!-- Page Title -->
-    <title>主页面</title>
+    <title>首页</title>
     <!-- Icon fonts -->
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
@@ -67,31 +67,50 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="IndexServlet?action=toIndex">新闻网站</a>
+                            <a class="navbar-brand" href="IndexServlet?action=toIndex">YOLO News Website</a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse navigation-holder">
                         <button class="close-navbar"><i class="ti-close"></i></button>
                         <ul class="nav navbar-nav">
+                            <%--首页专区--%>
                             <li class="menu-item-has-children">
-                                <a href="IndexServlet?action=toIndex">主页面</a>
-                              <!--   <ul class="sub-menu">
-                                    <li><a href="IndexServlet?action=toIndex">主页面</a></li>
-                                </ul> -->
+                                <a href="IndexServlet?action=toIndex">首页</a>
                             </li>
-                         
+                            <%--时事热点专区--%>
                             <li class="menu-item-has-children">
-                                 <a href="IndexServlet?action=toNews">新闻列表</a>
+                                 <a href="IndexServlet?action=toNews">时事热点</a>
                             </li>
+                            <%--乡村振兴专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">乡村振兴</a>
+                            </li>
+                            <%--一带一路专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">一带一路</a>
+                            </li>
+                            <%--直播中国专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">直播中国</a>
+                            </li>
+                            <%--世界视角专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">世界视角</a>
+                            </li>
+                            <%--人与自然专区--%>
+                            <li class="menu-item-has-children">
+                                <a href="IndexServlet?action=toNews">人与自然</a>
+                            </li>
+
                         </ul>
                     </div><!-- end of nav-collapse -->
                         <div class="cart-search-contact">
                             <div class="get-quote">
                             <c:if test="${user != null }">
                              <a href="#">欢迎用户：${user.name }</a>
-                             <h1><a href="LoginServlet?action=loginOut">退出</a></h1>
+                             <h1><a href="LoginServlet?action=loginOut">Login Out</a></h1>
                         </c:if>
                          <c:if test="${user == null }">
-                             <h1><a href="LoginServlet?action=loginOut">去登陆</a></h1>
+                             <h1><a href="LoginServlet?action=loginOut">Sign In</a></h1>
                         </c:if>
                         </div></div>
                     </div><!-- end of container -->
@@ -108,10 +127,10 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                 <div class="slide-title">
-                                    <h2>欢迎来到新闻网站</h2>
+                                    <h2>Welcome to YOLO News Website!</h2>
                                 </div>
                                 <div class="slide-subtitle">
-                                    <p>了解更多新闻，尽在新闻发布网！</p>
+                                    <p>........</p>
                                 </div>
                                 <!-- <div class="btns">
                                     <a href="#" class="theme-btn">Book A Room</a>
@@ -126,10 +145,10 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                 <div class="slide-title">
-                                    <h2>欢迎来到新闻网站</h2>
+                                    <h2>Welcome to YOLO News Website!</h2>
                                 </div>
                                 <div class="slide-subtitle">
-                                     <p>了解更多新闻，尽在新闻发布网！</p>
+                                     <p>小天地</p>
                                 </div>
                             </div>
                         </div>
@@ -141,10 +160,10 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                 <div class="slide-title">
-                                    <h2>欢迎来到新闻网站</h2>
+                                    <h2>Welcome to YOLO News Website!</h2>
                                 </div>
                                 <div class="slide-subtitle">
-                                     <p>了解更多新闻，尽在新闻发布网！</p>
+                                     <p>大舞台</p>
                                 </div>
                             </div>
                         </div>
@@ -156,10 +175,10 @@
                         <div class="row">
                             <div class="col col-md-8 slide-caption">
                                  <div class="slide-title">
-                                    <h2>欢迎来到新闻网站</h2>
+                                    <h2> Welcome to YOLO News Website!</h2>
                                 </div>
                                 <div class="slide-subtitle">
-                                     <p>每日发布最新新闻！</p>
+                                     <p>时事热点</p>
                                 </div>
                             </div>
                         </div>
@@ -167,8 +186,6 @@
                 </div>
             </div>
         </section>
-        <!-- wpo-about-area end -->
-        <!-- destination Company -->
        
     </div>
     <!-- All JavaScript files

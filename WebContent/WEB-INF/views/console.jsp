@@ -18,14 +18,14 @@
 		<style id="pearadmin-bg-color"></style>
 		  <style>
            body {
-            background:url("/assets/images/news.jpeg") no-repeat;
+            background:url("assets/images/news.jpeg") no-repeat;
             /*把背景图片放大到适合元素容器的尺寸，图片比例不变*/
             background-size:cover;
         }
     </style>
 	</head>
 	<body class="pear-container" >
-	<a style="font-Size:50px">欢迎来到新闻管理系统</a>
+	<a style="font-Size:50px">欢迎来到YOLO新闻发布系统</a>
 		<script src="resource/component/layui/layui.js"></script>
 		<script src="resource/component/pear/pear.js"></script>
 		<script>

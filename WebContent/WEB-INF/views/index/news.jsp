@@ -75,20 +75,20 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="IndexServlet?action=toIndex">新闻网站</a>
+                            <a class="navbar-brand" href="IndexServlet?action=toIndex">YOLO News Website</a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse navigation-holder">
                         <button class="close-navbar"><i class="ti-close"></i></button>
                         <ul class="nav navbar-nav">
                            <li class="menu-item-has-children">
-                                <a href="IndexServlet?action=toIndex">主页面</a>
+                                <a href="IndexServlet?action=toIndex">首页</a>
                               <!--   <ul class="sub-menu">
-                                    <li><a href="IndexServlet?action=toIndex">主页面</a></li>
+                                    <li><a href="IndexServlet?action=toIndex">首页</a></li>
                                 </ul> -->
                             </li>
                  
                             <li class="menu-item-has-children">
-                                <a href="IndexServlet?action=toNews">新闻</a>
+                                <a href="IndexServlet?action=toNews">时事热点</a>
                             </li>
                         </ul>
                     </div><!-- end of nav-collapse -->
@@ -97,10 +97,10 @@
                             <c:if test="${user != null }">
                            
                              <a href="#">欢迎用户：${user.name }</a>
-                             <h1><a href="LoginServlet?action=loginOut">退出</a></h1>
+                             <h1><a href="LoginServlet?action=loginOut">Login out</a></h1>
                         </c:if>
                          <c:if test="${user == null }">
-                             <h1><a href="LoginServlet?action=loginOut">去登陆</a></h1>
+                             <h1><a href="LoginServlet?action=loginOut">Sign in</a></h1>
                         </c:if>
                         </div></div>
                     </div><!-- end of container -->
@@ -113,18 +113,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col col-xs-12">
-                        <h2>新闻信息</h2>
+                        <h2>时事热点</h2>
                         <ol class="breadcrumb">
-                            <li><a href="IndexServlet?action=toIndex">主页面</a></li>
-                            <li>新闻</li>
+                            <li><a href="IndexServlet?action=toIndex">首页</a></li>
+                            <li>时事热点</li>
                         </ol>
                     </div>
                 </div> <!-- end row -->
             </div> <!-- end container -->
         </section>
         <!-- end page-title -->
-        
 
+        <div class="containers">
+            <div class="item"><img src="assets/images/blog/img-11.jpg" alt=""></div>
+            <div class="item"><img src="assets/images/blog/img-22.jpg" alt=""></div>
+            <div class="item"><img src="assets/images/blog/img-33.jpg" alt=""></div>
+            <div class="item"><img src="assets/images/blog/img-44.jpg" alt=""></div>
+            <div class="item"><img src="assets/images/blog/img-55.jpg" alt=""></div>
+            <div class="item"><img src="assets/images/blog/img-66.jpg" alt=""></div>
+        </div>
         <!-- start wpo-blog-single-section -->
         
      
@@ -224,7 +231,7 @@
                   
                     <div class="col col-md-4">
                         <div class="wpo-blog-sidebar">
-                        
+                            <%--站内搜索--%>
                            <div class="widget search-widget">
                                 <form action="IndexServlet?action=toNews"  method="post">
                                     <div>
@@ -234,7 +241,7 @@
                                 </form>
                             </div>
                      <div class="widget category-widget">
-                                <h3>分类</h3>
+                                <h3>新闻分类</h3>
                                 <ul>
                                   <c:forEach items="${categoryList}" var="u">
                                      <li><a href="IndexServlet?action=toNews&category=${u.cname }">${u.cname }</a></li>
@@ -244,7 +251,7 @@
                             </div>
                         
                             <div class="widget recent-post-widget">
-                                <h3>最近的新闻</h3>
+                                <h3>今日热播TOP</h3>
                                 	
                                 <div class="posts">
                                   <c:forEach items="${newsList}" var="u">

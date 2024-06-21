@@ -442,7 +442,7 @@ html {
 	transition: all .3s;
 	-webkit-transition: all .3s;
 	box-sizing: border-box;
-	border-left: 1px solid #f6f6f6
+	border-left: 1px solid #05bbb6
 }
 
 .layadmin-pagetabs .layadmin-tabs-control:hover {
@@ -504,7 +504,8 @@ html {
 
 .layadmin-pagetabs .layui-tab-title {
 	height: 40px;
-	border: none
+	border: none;
+	background-color: #e97400;
 }
 
 .layadmin-pagetabs .layui-tab-title li {
@@ -581,9 +582,9 @@ html {
 }
 
 .layui-layout-admin .layui-header {
-	border-bottom: 1px solid #f6f6f6;
+	border-bottom: 1px solid #02cbb8;
 	box-sizing: border-box;
-	background-color: #fff
+	background-color: #059d8f
 }
 
 .layui-layout-admin .layui-header a, .layui-layout-admin .layui-header a cite
@@ -610,7 +611,7 @@ html {
 }
 
 .layui-layout-admin .layui-logo {
-	background-color: #20222A;
+	background-color: #0da496;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .15)
 }
 
@@ -630,7 +631,7 @@ html {
 }
 
 .layadmin-setTheme-side, .layui-side-menu {
-	background-color: #20222A;
+	background-color: #046976;
 	color: #fff
 }
 
