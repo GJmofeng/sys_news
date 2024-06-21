@@ -231,7 +231,7 @@
                   
                     <div class="col col-md-4">
                         <div class="wpo-blog-sidebar">
-                        
+                            <%--站内搜索--%>
                            <div class="widget search-widget">
                                 <form action="IndexServlet?action=toNews"  method="post">
                                     <div>
